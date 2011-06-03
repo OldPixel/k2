@@ -7,3 +7,10 @@
 Odpowiedzi:
 ==============================================================================
 
+polecenie git blame nazwa_komita -- nazwa_pliku (sprawdza jaki uzytkownik jest odpowiedzialy za jakie zmiany w pliku)
+np - git blame 5825 -- kolo2.cpp
+
+można również użyć
+
+
+git blame -L 10,24 da90 -- main.java sprawdza w jakich liniach kto co zrbił
